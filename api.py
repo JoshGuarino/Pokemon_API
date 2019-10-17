@@ -6,9 +6,6 @@ import json
 app = Flask(__name__)
 api = Api(app)
 
-# url = request.base_url
-# print(url)
-
 pokemon_data = {}
 pokemon_index = {}
 pokemon_directory = os.listdir('json')
